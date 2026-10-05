@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #00ffff;
+  background-color: #548787;
   font-family: Arial, Helvetica, sans-serif;
   padding: 20px;
 }
@@ -20,8 +20,8 @@ body {
 
 nav {
   grid-column: 1 / -1;
-  background-color: #8a2be2;
-  color: #000000;
+  background-color: #4d4654;
+  color: #634d4d;
   padding: 30px 25px;
   border-radius: 12px;
 }
@@ -32,20 +32,20 @@ nav h3 {
 }
 
 .contenido {
-  background-color: #2b201a;
+  background-color: #6b605a;
   color: #ffffff;
   padding: 25px;
   border-radius: 12px;
 }
 
 .contenido h1 {
-  color: #0000ff;
+  color: #4d4040;
   font-size: 2rem;
   margin-bottom: 20px;
 }
 
 .contenido h2 {
-  color: #0000ff;
+  color: #2f2f3c;
   font-size: 1.2rem;
   margin-top: 15px;
   margin-bottom: 5px;
@@ -87,7 +87,7 @@ nav h3 {
 
 .bloque {
   background-color: #f0f8ff;
-  color: #000000;
+  color: #443939;
   padding: 20px;
   border-radius: 8px;
   min-height: 60px;
@@ -103,8 +103,8 @@ nav h3 {
 
 footer {
   grid-column: 1 / -1;
-  background-color: #000000;
-  color: #0000ff;
+  background-color: #4c4040;
+  color: #373749;
   padding: 25px;
   border-radius: 10px;
   text-align: center;
