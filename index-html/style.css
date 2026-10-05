@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #00ffff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.contenedor {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+nav {
+  grid-column: 1 / -1;
+  background-color: #8a2be2;
+  color: #000000;
+  padding: 30px 25px;
+  border-radius: 12px;
+}
+
+nav h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.contenido {
+  background-color: #2b201a;
+  color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.contenido h1 {
+  color: #0000ff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contenido h2 {
+  color: #0000ff;
+  font-size: 1.2rem;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.contenido p {
+  color: #ffffff;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+/* Estilo para la foto del bodeguero */
+.foto-kira {
+  width: 100%;
+  max-height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 10px 0 15px 0;
+  display: block;
+}
+
+.sidebar {
+  background-color: #b22222;
+  color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar h3 {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.bloque {
+  background-color: #f0f8ff;
+  color: #000000;
+  padding: 20px;
+  border-radius: 8px;
+  min-height: 60px;
+}
+
+#bloque1 {
+  grid-column: 1 / 2;
+}
+
+#bloque2 {
+  grid-column: 2 / 3;
+}
+
+footer {
+  grid-column: 1 / -1;
+  background-color: #000000;
+  color: #0000ff;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
